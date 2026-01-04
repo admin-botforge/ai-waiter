@@ -1,0 +1,169 @@
+{
+  "restaurant_name": "Veg Cafe",
+  "restaurant_menu": {
+    "sections": [
+      {
+        "category": "Appetizers",
+        "category_context": "Light vegetarian starters and Italian-inspired finger foods designed to stimulate the appetite.",
+        "items": [
+          {"id": "app-01", "name_en": "Garlic & Tomato Ricotta", "name_hi": "लहसुन और टमाटर रिकाोटा", "price": 90, "description": "Toasted bread topped with creamy whipped ricotta, roasted garlic, and fresh cherry tomatoes.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Ricotta", "Garlic", "Tomato", "Bread"]},
+          {"id": "app-02", "name_en": "Broccoli & Garlic Ricotta", "name_hi": "ब्रोकोली और लहसुन रिकाोटा", "price": 110, "description": "Crispy crostini spread with garlic-infused ricotta and charred broccoli florets.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Broccoli", "Garlic", "Ricotta"]},
+          {"id": "app-03", "name_en": "Pan Pizza", "name_hi": "पैन पिज्जा", "price": 70, "description": "Mini deep-dish pizza with a thick, soft crust topped with house tomato sauce and mozzarella.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Pizza Dough", "Mozzarella", "Tomato Sauce"]},
+          {"id": "app-04", "name_en": "Nachos (Salsa & Cheese Dip)", "name_hi": "नाचोस (साल्सा और चीज़ डिप)", "price": 90, "description": "Crunchy corn chips served with a side of spicy tomato salsa and a warm, velvety cheese sauce.", "dietary_tags": ["Vegetarian", "Gluten-Free"], "is_popular": true, "key_ingredients": ["Corn Tortilla", "Cheese Blend", "Tomato Salsa"]},
+          {"id": "app-05", "name_en": "Poblano Enchiladas", "name_hi": "पोब्लानो एनचिलाडास", "price": 110, "description": "Mexican-style rolled tortillas stuffed with roasted poblano peppers and melted cheese.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": false, "key_ingredients": ["Poblano Pepper", "Corn Tortilla", "Green Chili Sauce"]},
+          {"id": "app-06", "name_en": "Cheese Corn Ball", "name_hi": "चीज़ कॉर्न बॉल", "price": 110, "description": "Crispy golden-fried spheres filled with sweet corn and a molten cheese center.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Sweet Corn", "Processed Cheese", "Breadcrumbs"]},
+          {"id": "app-07", "name_en": "Mozzerella Sticks", "name_hi": "मोज़ेरेला स्टिक्स", "price": 90, "description": "Breaded mozzarella cheese sticks fried until gooey, served with marinara dip.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Mozzarella Cheese", "Herbs", "Batter"]},
+          {"id": "app-08", "name_en": "Potato Fritters", "name_hi": "आलू के पकोड़े", "price": 90, "description": "Traditional Indian bhajia made with sliced potatoes dipped in a spiced gram-flour batter.", "dietary_tags": ["Vegetarian", "Vegan"], "is_popular": false, "key_ingredients": ["Potato", "Gram Flour", "Turmeric"]},
+          {"id": "app-09", "name_en": "Onion Rings", "name_hi": "प्याज के छल्ले", "price": 89, "description": "Thick-cut onion slices battered and fried to a perfect golden crunch.", "dietary_tags": ["Vegetarian", "Vegan"], "is_popular": false, "key_ingredients": ["Onion", "Panko Breadcrumbs", "Salt"]},
+          {"id": "app-10", "name_en": "French Fries", "name_hi": "फ्रेंच फ्राइज़", "price": 89, "description": "Classic deep-fried shoestring potatoes lightly seasoned with sea salt.", "dietary_tags": ["Vegetarian", "Vegan", "Gluten-Free"], "is_popular": true, "key_ingredients": ["Potato", "Vegetable Oil", "Salt"]},
+          {"id": "app-11", "name_en": "Masala French Fries", "name_hi": "मसाला फ्रेंच फ्राइज़", "price": 99, "description": "Crispy fries tossed in a zesty Indian spice blend of chaat masala and chili powder.", "dietary_tags": ["Vegetarian", "Vegan", "Spicy"], "is_popular": true, "key_ingredients": ["Potato", "Chaat Masala", "Red Chili Powder"]}
+        ]
+      },
+      {
+        "category": "Main Course",
+        "category_context": "Hearty, filling vegetarian plates featuring baked specialties and gourmet rice dishes.",
+        "items": [
+          {"id": "mc-01", "name_en": "Au Gratin", "name_hi": "ऑ ग्रैटिन", "price": 150, "description": "Mixed vegetables baked in a rich, creamy white béchamel sauce with a cheesy crust.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Milk", "Cheese", "Cauliflower", "Carrots"]},
+          {"id": "mc-02", "name_en": "Vegetable Grilled Lasagna", "name_hi": "वेजीटेबल ग्रिल्ड लासग्ना", "price": 200, "description": "Layers of pasta, grilled seasonal vegetables, and marinara sauce topped with mozzarella.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Pasta Sheets", "Zucchini", "Bell Peppers", "Cheese"]},
+          {"id": "mc-03", "name_en": "Mac & Cheese", "name_hi": "मैक एंड चीज़", "price": 150, "description": "Classic comfort food featuring macaroni pasta in a silky, extra-cheesy sauce.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Macaroni", "Cheddar Cheese", "Cream"]},
+          {"id": "mc-04", "name_en": "Risotto", "name_hi": "रिसोट्टो", "price": 150, "description": "Creamy Italian rice slow-cooked with vegetable broth, parmesan, and mushrooms.", "dietary_tags": ["Vegetarian", "Gluten-Free"], "is_popular": false, "key_ingredients": ["Arborio Rice", "Parmesan", "Mushroom", "Butter"]}
+        ]
+      },
+      {
+        "category": "Pasta",
+        "category_context": "Freshly prepared Italian pasta served with your choice of red, white, or mixed sauces.",
+        "items": [
+          {"id": "pas-01", "name_en": "Arrabiata", "name_hi": "अरेबियाटा", "price": 110, "description": "Pasta tossed in a fiery red tomato sauce infused with garlic and dried red chili flakes.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": true, "key_ingredients": ["Tomato", "Garlic", "Red Chili", "Basil"]},
+          {"id": "pas-02", "name_en": "Alferedo", "name_hi": "अल्फ्रेडो", "price": 121, "description": "Rich and velvety white sauce pasta made with heavy cream, butter, and parmesan.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Cream", "Cheese", "Butter", "Black Pepper"]},
+          {"id": "pas-03", "name_en": "Mix Sauce", "name_hi": "मिक्स सॉस", "price": 131, "description": "The best of both worlds—a pink sauce pasta combining tangy tomato and creamy white sauce.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Red Sauce", "White Sauce", "Veggies"]}
+        ]
+      },
+      {
+        "category": "Pizza",
+        "category_context": "Freshly baked pizzas with diverse vegetarian toppings and Italian-style crusts.",
+        "items": [
+          {"id": "piz-01", "name_en": "Magrehitta", "name_hi": "मार्गेरिटा", "price": 89, "description": "The classic Neapolitan pizza with tomato sauce, mozzarella, and fresh basil.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Mozzarella", "Basil", "Tomato Sauce"]},
+          {"id": "piz-02", "name_en": "Double Cheese Magrehitta", "name_hi": "डबल चीज़ मार्गेरिटा", "price": 110, "description": "A classic Margherita with an extra layer of premium melting cheese.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Extra Cheese", "Tomato Sauce"]},
+          {"id": "piz-03", "name_en": "Veggies garden Pizza", "name_hi": "वेजी गार्डन पिज्जा", "price": 110, "description": "Loaded with fresh onions, capsicum, tomatoes, and golden corn.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Capsicum", "Onion", "Sweet Corn", "Tomato"]},
+          {"id": "piz-04", "name_en": "Paneer Tikka & Veggies pizza", "name_hi": "पनीर टिक्का और वेजी पिज्जा", "price": 120, "description": "Fusion pizza topped with marinated paneer cubes and grilled vegetables.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": true, "key_ingredients": ["Paneer Tikka Masala", "Onion", "Bell Peppers"]},
+          {"id": "piz-05", "name_en": "Mexican Green Wave Pizza", "name_hi": "मैक्सिकन ग्रीन वेव पिज्जा", "price": 120, "description": "Spicy pizza topped with jalapeños, onions, capsicum, and Mexican herbs.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": false, "key_ingredients": ["Jalapeño", "Mexican Herbs", "Onion"]},
+          {"id": "piz-06", "name_en": "Deluxe Veggies Pizza", "name_hi": "डीलक्स वेजी पिज्जा", "price": 129, "description": "The ultimate veggie pizza with mushrooms, olives, onions, and extra cheese.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Mushroom", "Black Olives", "Onion", "Cheese"]},
+          {"id": "piz-07", "name_en": "Cheese & Corn Pizza", "name_hi": "चीज़ और कॉर्न पिज्जा", "price": 110, "description": "Simple yet delicious combination of sweet corn and gooey mozzarella.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Sweet Corn", "Mozzarella"]},
+          {"id": "piz-08", "name_en": "Paneer Makhni Pizza", "name_hi": "पनीर मखनी पिज्जा", "price": 120, "description": "Topped with a rich butter-makhani sauce and soft tandoori paneer.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Makhni Gravy", "Paneer", "Cream"]}
+        ]
+      },
+      {
+        "category": "Garlic Bread",
+        "category_context": "Oven-toasted bread with garlic butter, served plain or with toppings.",
+        "items": [
+          {"id": "gb-01", "name_en": "Garlic Bread", "name_hi": "लहसुन ब्रेड", "price": 65, "description": "French bread slices brushed with house-made garlic butter and toasted.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Bread", "Garlic Butter", "Parsley"]},
+          {"id": "gb-02", "name_en": "Cheese Garlic Bread", "name_hi": "चीज़ गार्लिक ब्रेड", "price": 75, "description": "Classic garlic bread topped with a layer of melted mozzarella cheese.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Bread", "Garlic Butter", "Cheese"]},
+          {"id": "gb-03", "name_en": "Corn Cheese Garlic Bread", "name_hi": "कॉर्न चीज़ गार्लिक ब्रेड", "price": 85, "description": "Garlic bread topped with sweet corn and melted cheese.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Bread", "Corn", "Cheese"]},
+          {"id": "gb-04", "name_en": "Olive & jalapeno Garlic Bread", "name_hi": "ओलिव और जलपेनो गार्लिक ब्रेड", "price": 99, "description": "Spicy and tangy garlic bread topped with jalapeños and black olives.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": false, "key_ingredients": ["Bread", "Jalapeño", "Olives", "Cheese"]}
+        ]
+      },
+      {
+        "category": "Vada Paw",
+        "category_context": "The classic Mumbai street burger—spicy potato patties in soft buns.",
+        "items": [
+          {"id": "vp-01", "name_en": "Vada Paw", "name_hi": "वड़ा पाव", "price": 30, "description": "Authentic Mumbai-style potato fritter served in a pav with dry garlic chutney.", "dietary_tags": ["Vegetarian", "Vegan-Option"], "is_popular": true, "key_ingredients": ["Potato", "Gram Flour", "Pav", "Garlic Chutney"]},
+          {"id": "vp-02", "name_en": "Masala Vada Paw", "name_hi": "मसाला वड़ा पाव", "price": 40, "description": "Classic Vada Pav tossed in extra spicy masalas for an added kick.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": false, "key_ingredients": ["Potato", "Pav", "Spicy Masala"]},
+          {"id": "vp-03", "name_en": "Cheese Vada Paw", "name_hi": "चीज़ वड़ा पाव", "price": 40, "description": "Traditional Vada Pav with a generous slice of cheese inside.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Potato", "Pav", "Cheese Slice"]},
+          {"id": "vp-04", "name_en": "Paneer Tikka Vada Paw", "name_hi": "पनीर टिक्का वड़ा पाव", "price": 40, "description": "Fusion Vada Pav with a tandoori paneer twist.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": true, "key_ingredients": ["Paneer", "Pav", "Tandoori Sauce"]}
+        ]
+      },
+      {
+        "category": "Burger",
+        "category_context": "Juicy grilled vegetarian burgers served with crisp lettuce and sauces.",
+        "items": [
+          {"id": "brg-01", "name_en": "Veg Grilled Burger", "name_hi": "वेज ग्रिल्ड बर्गर", "price": 60, "description": "Crispy mixed-veg patty grilled and served with mayo, onion, and tomato.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Veg Patty", "Burger Bun", "Mayo", "Lettuce"]},
+          {"id": "brg-02", "name_en": "Paneer Grilled Burger", "name_hi": "पनीर ग्रिल्ड बर्गर", "price": 70, "description": "A thick slab of grilled paneer served with spicy sauce and crunchy veggies.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Paneer", "Burger Bun", "Spicy Mayo"]},
+          {"id": "brg-03", "name_en": "Corn & Spinach Grilled Burger", "name_hi": "कॉर्न और पालक ग्रिल्ड बर्गर", "price": 75, "description": "Nutritious and delicious patty made with sweet corn and fresh spinach.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Spinach", "Corn", "Burger Bun", "Cheese"]}
+        ]
+      },
+      {
+        "category": "Sandwiches",
+        "category_context": "Freshly prepared sandwiches with a choice of white or brown bread.",
+        "items": [
+          {"id": "snd-01", "name_en": "Veg Sandwich", "name_hi": "वेज सैंडविच", "price": 60, "description": "Light and fresh sandwich with cucumber, tomato, and mint chutney.", "dietary_tags": ["Vegetarian", "Vegan-Option"], "is_popular": false, "key_ingredients": ["Cucumber", "Tomato", "Green Chutney"], "options": ["White Bread", "Brown Bread"]},
+          {"id": "snd-02", "name_en": "Paneer Tandoor Sandwich", "name_hi": "पनीर तंदूर सैंडविच", "price": 80, "description": "Grilled sandwich with smoky tandoori marinated paneer cubes.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": true, "key_ingredients": ["Paneer", "Tandoori Masala", "Bread"]},
+          {"id": "snd-03", "name_en": "Paneer BBQ Sandwich", "name_hi": "पनीर बारबेक्यू सैंडविच", "price": 80, "description": "Sweet and smoky BBQ paneer grilled between bread slices.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Paneer", "BBQ Sauce", "Onion"]},
+          {"id": "snd-04", "name_en": "Masala Corn Sandwich", "name_hi": "मसाला कॉर्न सैंडविच", "price": 70, "description": "Spiced sweet corn and cheese grilled to perfection.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Sweet Corn", "Spices", "Cheese"]},
+          {"id": "snd-05", "name_en": "Coleslow Sandwich", "name_hi": "कोलस्लो सैंडविच", "price": 70, "description": "Creamy mayo-based cabbage and carrot salad filling.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Cabbage", "Carrot", "Creamy Mayo"]},
+          {"id": "snd-06", "name_en": "Aloo Matar Sandwich", "name_hi": "आलू मटर सैंडविच", "price": 70, "description": "Indian street style filling made with spiced mashed potatoes and green peas.", "dietary_tags": ["Vegetarian", "Vegan-Option"], "is_popular": true, "key_ingredients": ["Potato", "Green Peas", "Spices"]},
+          {"id": "snd-07", "name_en": "Club Sandwich", "name_hi": "क्लब सैंडविच", "price": 80, "description": "Triple-layered sandwich with assorted veggies, cheese, and house mayo.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Multi-layer Bread", "Mixed Veggies", "Cheese"]}
+        ]
+      },
+      {
+        "category": "Taco (4PC)",
+        "category_context": "Crispy Mexican taco shells stuffed with spicy vegetarian fillings.",
+        "items": [
+          {"id": "tco-01", "name_en": "Veg Taco", "name_hi": "वेज टैको", "price": 70, "description": "Crispy tacos filled with beans, fresh salsa, and shredded lettuce.", "dietary_tags": ["Vegetarian", "Vegan-Option"], "is_popular": false, "key_ingredients": ["Taco Shell", "Beans", "Salsa"]},
+          {"id": "tco-02", "name_en": "Paneer Taco", "name_hi": "पनीर टैको", "price": 89, "description": "Mexican-Indian fusion taco with spicy paneer and chipotle sauce.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": true, "key_ingredients": ["Paneer", "Taco Shell", "Chipotle"]},
+          {"id": "tco-03", "name_en": "Mushroom Taco", "name_hi": "मशरूम टैको", "price": 89, "description": "Sautéed garlic mushrooms with sour cream in a crispy shell.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Mushroom", "Garlic", "Sour Cream"]},
+          {"id": "tco-04", "name_en": "Corn Taco", "name_hi": "कॉर्न टैको", "price": 89, "description": "Zesty lime-cilantro corn filling with cheese.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Corn", "Lime", "Cilantro", "Cheese"]},
+          {"id": "tco-05", "name_en": "Mix Taco", "name_hi": "मिक्स टैको", "price": 99, "description": "Assorted fillings of paneer, corn, and mushrooms for variety.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Paneer", "Mushroom", "Corn"]}
+        ]
+      },
+      {
+        "category": "Quesadills",
+        "category_context": "Grilled flour tortillas folded with melted cheese and savory fillings.",
+        "items": [
+          {"id": "qsd-01", "name_en": "Black Bean Quesadills", "name_hi": "ब्लैक बीन क्वेसाडिल्स", "price": 80, "description": "Classic Mexican quesadilla with seasoned black beans and cheese.", "dietary_tags": ["Vegetarian", "Vegan-Option"], "is_popular": false, "key_ingredients": ["Black Beans", "Tortilla", "Cheese"]},
+          {"id": "qsd-02", "name_en": "Paneer Tikka", "name_hi": "पनीर टिक्का", "price": 90, "description": "Grilled tortilla filled with spicy paneer tikka and melted cheese.", "dietary_tags": ["Vegetarian", "Spicy"], "is_popular": true, "key_ingredients": ["Paneer", "Tandoori Spices", "Cheese"]},
+          {"id": "qsd-03", "name_en": "Corn", "name_hi": "कॉर्न", "price": 90, "description": "Sweet corn and cheddar cheese melted inside a grilled tortilla.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Corn", "Cheese"]},
+          {"id": "qsd-04", "name_en": "Mushroom", "name_hi": "मशरूम", "price": 90, "description": "Earthy sautéed mushrooms with herbs and lots of cheese.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Mushroom", "Cheese", "Herbs"]},
+          {"id": "qsd-05", "name_en": "Mix", "name_hi": "मिक्स", "price": 99, "description": "A combination of all our best quesadilla fillings in one.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Mixed Veggies", "Cheese"]}
+        ]
+      },
+      {
+        "category": "Regular Milk Shakes",
+        "category_context": "Traditional creamy milkshakes made with premium syrups and milk.",
+        "items": [
+          {"id": "rms-01", "name_en": "Vanilla Millk Shake", "name_hi": "वनीला मिल्क शेक", "price": 89, "description": "Smooth and creamy milkshake flavored with pure vanilla.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Milk", "Vanilla Bean", "Sugar"]},
+          {"id": "rms-02", "name_en": "Chocolate Milk Shake", "name_hi": "चॉकलेट मिल्क शेक", "price": 89, "description": "Rich and decadent shake made with premium chocolate syrup.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Milk", "Chocolate Syrup"]},
+          {"id": "rms-03", "name_en": "Strawberry Milk Shake", "name_hi": "स्ट्रॉबेरी मिल्क शेक", "price": 89, "description": "Sweet and fruity milkshake with a refreshing strawberry taste.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Milk", "Strawberry Puree"]},
+          {"id": "rms-04", "name_en": "Butterscotch Milk Shake", "name_hi": "बटरस्कॉच मिल्क शेक", "price": 89, "description": "Crunchy and buttery milkshake with classic butterscotch flavor.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Milk", "Butterscotch Crunch"]},
+          {"id": "rms-05", "name_en": "Cold Coffee", "name_hi": "कोल्ड कॉफी", "price": 89, "description": "Refreshing chilled coffee blended to a frothy perfection.", "dietary_tags": ["Vegetarian", "Contains-Caffeine"], "is_popular": true, "key_ingredients": ["Coffee", "Milk", "Ice"]},
+          {"id": "rms-06", "name_en": "Cold Coffee with Ice Cream", "name_hi": "आइसक्रीम के साथ कोल्ड कॉफी", "price": 99, "description": "Our signature cold coffee topped with a large scoop of vanilla ice cream.", "dietary_tags": ["Vegetarian", "Contains-Caffeine"], "is_popular": true, "key_ingredients": ["Coffee", "Vanilla Ice Cream", "Milk"]}
+        ]
+      },
+      {
+        "category": "Banana Milk Shakes",
+        "category_context": "Nutritious shakes made with fresh bananas and natural flavorings.",
+        "items": [
+          {"id": "bms-01", "name_en": "Banana Milk Shake", "name_hi": "केला मिल्क शेक", "price": 79, "description": "Thick shake made with fresh ripe bananas and milk.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Fresh Banana", "Milk"]},
+          {"id": "bms-02", "name_en": "Banana Vanilla Milk Shake", "name_hi": "केला वनीला मिल्क शेक", "price": 79, "description": "Combination of fresh banana and a hint of vanilla sweetness.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Banana", "Vanilla", "Milk"]},
+          {"id": "bms-03", "name_en": "Banana Chocolate Milk Shake", "name_hi": "केला चॉकलेट मिल्क शेक", "price": 79, "description": "A treat for chocolate lovers—fresh banana blended with chocolate.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Banana", "Chocolate", "Milk"]},
+          {"id": "bms-04", "name_en": "Banana Strawberry Milk Shake", "name_hi": "केला स्ट्रॉबेरी मिल्क शेक", "price": 79, "description": "A fruity blend of banana and strawberry flavors.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Banana", "Strawberry", "Milk"]}
+        ]
+      },
+      {
+        "category": "Oreo Cookie Milk Shakes",
+        "category_context": "Indulgent shakes blended with real Oreo cookie chunks.",
+        "items": [
+          {"id": "oms-01", "name_en": "Oreo Vanilla Milk Shake", "name_hi": "ओरियो वनीला मिल्क शेक", "price": 99, "description": "Creamy vanilla shake with crunchy crushed Oreo cookies.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Oreo Cookies", "Vanilla", "Milk"]},
+          {"id": "oms-02", "name_en": "Oreo Chocolate Milk Shake", "name_hi": "ओरियो चॉकलेट मिल्क शेक", "price": 99, "description": "Double the indulgence with chocolate and Oreo cookies.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Oreo Cookies", "Chocolate", "Milk"]},
+          {"id": "oms-03", "name_en": "Oreo Strawberry Milk Shake", "name_hi": "ओरियो स्ट्रॉबेरी मिल्क शेक", "price": 99, "description": "A unique blend of fruity strawberry and crunchy Oreo cookies.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Oreo Cookies", "Strawberry", "Milk"]}
+        ]
+      },
+      {
+        "category": "Veg Cafe Special Shake",
+        "category_context": "Our signature house-special shakes with unique, exotic flavors.",
+        "items": [
+          {"id": "vss-01", "name_en": "Pan Ice Cream Shake", "name_hi": "पान आइसक्रीम शेक", "price": 99, "description": "Refreshing dessert shake with the traditional taste of betel leaf and gulkand.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Betel Leaf", "Gulkand", "Vanilla Ice Cream", "Milk"]},
+          {"id": "vss-02", "name_en": "Muskmelon Ice Cream Shake", "name_hi": "खरबूजा आइसक्रीम शेक", "price": 99, "description": "Sweet and fruity shake made with fresh muskmelon and vanilla ice cream.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Fresh Muskmelon", "Vanilla Ice Cream", "Milk"]}
+        ]
+      },
+      {
+        "category": "Dessert",
+        "category_context": "Sweet end-of-meal treats featuring rich chocolate and brownies.",
+        "items": [
+          {"id": "des-01", "name_en": "Brownie", "name_hi": "ब्राउनी", "price": 80, "description": "Classic chocolate fudge brownie with a gooey center.", "dietary_tags": ["Vegetarian"], "is_popular": false, "key_ingredients": ["Chocolate", "Cocoa Powder", "Flour"]},
+          {"id": "des-02", "name_en": "Brownie with Hot Chocolate", "name_hi": "हॉट चॉकलेट के साथ ब्राउनी", "price": 95, "description": "Warm brownie drizzled with thick, steaming hot chocolate sauce.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Brownie", "Hot Chocolate Sauce"]},
+          {"id": "des-03", "name_en": "Chocolate Brownie with Ice Cream", "name_hi": "आइसक्रीम के साथ चॉकलेट ब्राउनी", "price": 119, "description": "Warm chocolate brownie topped with a cold scoop of vanilla ice cream and chocolate drizzle.", "dietary_tags": ["Vegetarian"], "is_popular": true, "key_ingredients": ["Brownie", "Vanilla Ice Cream", "Chocolate Sauce"]}
+        ]
+      }
+    ]
+  }
+}

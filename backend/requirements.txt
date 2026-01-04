@@ -1,0 +1,16 @@
+# --- Web Server & API ---
+fastapi[standard]          # Includes Uvicorn and Pydantic for fast API development
+uvicorn                    # High-performance ASGI server for production
+python-multipart          # Required for handling form data and file uploads
+supabase                   # Official Python client for your database and auth
+
+# --- AI & LLM ---
+google-generativeai        # Official SDK for Gemini 2.5/2.0
+sentence-transformers      # Local embedding generation for FAISS
+faiss-cpu                  # Vector database engine
+numpy<2.0.0                # Required for compatibility with current FAISS/Transformers
+
+# --- Utilities ---
+python-dotenv              # Safe management of .env API keys
+pydantic-settings          # Advanced configuration management
+httpx                      # For making async HTTP requests if needed

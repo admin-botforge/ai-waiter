@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.local
+.env.development.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+env/
+.env/
+.venv/
+
+# Build outputs
+dist/
+build/
+.next/
+
+# Logs and OS files
+npm-debug.log*
+.DS_Store
