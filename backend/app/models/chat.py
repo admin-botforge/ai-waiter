@@ -6,6 +6,8 @@ class ChatRequest(BaseModel):
     name: str
     table_id: str
     user_input: str
+    table_id: str
+    current_cart: list = []
 
 class VoiceResponse(BaseModel):
     voice_text: str        # To be read by the browser/TTS engine

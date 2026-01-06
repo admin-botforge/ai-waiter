@@ -28,18 +28,24 @@ async def handle_chat(request: ChatRequest):
 
         # 3. Context Retrieval: Get menu items relevant to the input
         # We need an instance of MenuService to call its methods
-        menu_service = MenuService.get_instance()
-        menu_context = menu_service.get_relevant_items(request.user_input)
+        menu_res = supabase.table("menu").select("*").eq("is_available", True).execute()
+        
+        # Convert the list of items into a clean string for the AI's "brain"
+        menu_context = "\n".join([
+            f"- {item['name_en']} ({item['name_hi']}): Rs.{item['price']}" 
+            for item in menu_res.data
+        ])
 
         # 4. Agent Reasoning: Generate the response
         # Now we have all the variables defined and ready to pass
         ai_response = CafeAgent.get_voice_response(
             user_input=request.user_input,
             user_name=request.name,
-            menu_context=menu_context,
+            menu_context=menu_context,      # The dynamic menu string
             active_order=active_order,
             session_id=session['id'],
-            history=session.get('history', [])
+            history=session.get('history', []),
+            current_cart=request.current_cart # <--- PASS THE CHECKBOX ITEMS HERE
         )
         # 5. Execute Order Placement if triggered
         if ai_response.get("action") == "ORDER_PLACED" and ai_response.get("items"):

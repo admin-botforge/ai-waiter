@@ -14,14 +14,18 @@ class CafeAgent:
     MODEL_NAME = "gemini-2.5-flash" 
 
     @classmethod
-    def get_voice_response(cls, user_input, user_name, menu_context, active_order=None, session_id=None, history=[]):
+    def get_voice_response(cls, user_input, user_name, menu_context, active_order=None, session_id=None, history=[], current_cart=[]):
         # 1. FETCH PERSISTENT CART FROM DATABASE
         session_query = supabase.table("chat_sessions").select("cart_items").eq("id", session_id).single().execute()
         db_cart = session_query.data.get("cart_items", []) if session_query.data else []
         if not isinstance(db_cart, list): db_cart = []
-        
+        # --- NEW: SYNC LOGIC ---
+        # If the frontend sent a current_cart (manual checkbox selections), 
+        # we prioritize it over the database cart for this turn.
+        active_cart = current_cart if current_cart else db_cart
+
         # 2. Format current items for Gemini's instructions
-        current_items_str = ", ".join([f"{i.get('name') or i.get('name_en')} (x{i.get('quantity', 1)})" for i in db_cart]) if db_cart else "Empty"
+        current_items_str = ", ".join([f"{i.get('name') or i.get('name_en')} (x{i.get('quantity', 1)})" for i in active_cart]) if active_cart else "Empty"
 
         # 3. INITIALIZE MODEL
         model = genai.GenerativeModel(
@@ -32,7 +36,8 @@ class CafeAgent:
                 f"If the input is 'GREET_USER_INITIAL', you must say: 'Namaste {user_name}! Welcome to Veg Cafe. Main aapki kya sewa kar sakta hoon?' "
                 "STRICT RULES:\n"
                 "1. ALWAYS return ONLY a JSON object.\n"
-                "2. The 'items' list must ALWAYS contain the FULL cart (existing + new items).\n"
+                "2. The 'items' list must ALWAYS contain the FULL cart. "
+                f"If the user says 'place order', use these items: {current_items_str}.\n" # Force focus on selection
                 "3. Use 'name' as the key for item names in the JSON items list.\n"
                 "4. Only set action='ORDER_PLACED' if user confirms the final summary.\n"
                 "5. If user asks a question, keep 'items' populated with current cart."
@@ -42,10 +47,13 @@ class CafeAgent:
         chat = model.start_chat(history=history)
         
         prompt = f"""
-        MENU DATA: {menu_context}
+        MENU DATA (Use this for availability): {menu_context}
+        MANUAL_FRONTEND_SELECTION: {json.dumps(current_cart)}
         CURRENT_DATABASE_CART: {json.dumps(db_cart)}
         USER_MESSAGE: "{user_input}"
-        
+        IMPORTANT: If MANUAL_FRONTEND_SELECTION is not empty, it means the user checked boxes on the screen. 
+        Update your internal state to match MANUAL_FRONTEND_SELECTION.
+
         RESPONSE FORMAT:
         {{
           "voice_text": "natural Hinglish response",
