@@ -7,7 +7,7 @@ app = FastAPI(title="Veg Cafe Alexa Server")
 origins = [
     "http://localhost:5173",        # Local React
     "http://127.0.0.1:5173",       # Local React alternative
-    "https://your-app-name.vercel.app" # <--- ADD YOUR ACTUAL VERCEL URL HERE
+    "https://cafe-ai-waiter.netlify.app" # <--- ADD YOUR ACTUAL VERCEL URL HERE
 ]
 
 # IMPORTANT: Allow React (Frontend) to talk to FastAPI (Backend)
